@@ -1,0 +1,198 @@
+[Versión 1.0]
+Lanzamiento Inicial. Basado en el tema Predeterminado por Midiman:
+- Se requiere tener el tema predeterminado de StepMania 5.0.12 para hacerlo funcionar.
+- Sólo para usar con monitores de pantalla 16:9.
+- No funciona con los perfiles (este tema pretende utilizar el estilo clásico).
+- Se cambia la mayoría de los elementos de color amarillo a color azul.
+- Agregada una pantalla de Advertencia cuando se inicie StepMania.
+- Cambiado el "ScreenInit" (aquella del logo de SSC y la información del tema) por un "ScreenCompany".
+- Se agrega (y cambia algo de) música para las diferentes pantallas.
+- La Selección de Estilo usa la rueda de desplazamiento al estilo de DDR 2014.
+- La Selección de Dificultad reemplaza la pantalla de Selección de Modo de Juego.
+- Se agregan animaciones de Combo Completo (como en los juegos más recientes de DDR).
+- Algunos nombres para los juicios son cambiados.
+- Personalizadas algunas fuentes.
+- Algunas opciones en la pantalla de Servicio de Opciones son eliminadas (una de ellas, la selección de idioma).
+- La pantalla de Cómo Jugar es extendida.
+- Se agrega una columna extra en la pantalla de Puntuaciones Altas (este tema llama Ultimado a la dificultad Edit).
+- La pantalla de Fin del Juego tiene oraciones cambiadas.
+- Las dificultades tienen algunos nombres diferentes.
+- Agregada la sección de StepMania Tacvicom Edition en la pantalla de Créditos.
+
+[Versión 1.1]
+- Ahora es un tema independiente (ya no requiere ese tema predeterminado para funcionar).
+- Agregados algunos colores para los grupos en la Rueda de Música.
+- Arreglado un error que no permitía que de ScreenCompany pase automáticamente a ScreenLogo cuando el temporizador no es activado en el Servicio de Opciones.
+
+[Versión 1.2]
+- Pantalla de Seleccionar Música:
+  - Algunos objetos son arreglados (incluyendo la Rueda de Música)
+  - Se elimina ese panel de dificultad visto encima de la pancarta de la canción.
+  - Se agrega un radar de estriado (basado en el modelo de DDR Ultramix).
+  - La franja cuando preguntan por las opciones de canción es ahora de color azul.
+- Pantalla de Puntuaciones Altas: La lista desplazada y los íconos superiores están más centrados.
+- Arreglados los colores para los jugadores 1 y 2 (a azul claro y rojo claro, respectivamente).
+
+[Versión 1.3]
+- Se restaura la selección de idioma en el Servicio de Opciones.
+- Este tema ahora funcionará correctamente sólo con los idiomas Inglés y Espanol.
+- Agregado un montón de imágenes con texto en idioma Espanol (incluyendo aquellos vistos en la pantalla de Cómo Jugar, los Juicios, las palabras para el radar de estriado en la Selección de Música, el Gana-Pierde-Empata para el modo Delirio, y más).
+- La Selección de Estilo tiene algunas imágenes cambiadas.
+- Se restaura la pantalla de Selección de Modo de Juego, y podrás ver la Selección de Dificultad cuando eliges los modos Normal o Delirio.
+- Agregadas pancartas "propias" para la Selección de Música, y un nuevo "Sin Fondo" al jugar una canción sin fondo visual.
+- Actualizada la pantalla de Advertencia.
+
+[Versión 1.4]
+- ScreenGameplay: Arregladas las "Áreas de Juego" para encajar mejor con las pantallas 16:9.
+- Agregados los modos Solo y Pareja en la pantalla de Selección de Estilo.
+- Eliminado el modo Delirio para los estilos Doble y Solo (por ser incompatible con esos modos. La pancarta bloqueada en el tema predeterminado lo dice todo).
+- El ícono de la parte superior izquierda de la ventana ahora es azul.
+- Nuevo modelo de las barras para la Rueda de Música.
+- Arreglado un error que hacía que el contador de escenas no se mostrara correctamente cuando tienes a StepMania en un idioma distinto al Inglés (y es un error que el tema predeterminado de StepMania 5.0.12 tiene).
+- Agregadas pancartas para las opciones de organización para la Rueda de Música.
+
+[Versión 1.5]
+- Ajustada la altura del texto en la pantalla de Precaución.
+- Arreglada finalmente la parte de "No funciona con perfiles" (adoptando el estilo de los primeros juegos de DDR).
+- Eliminados esos objetos negros en las pantallas de Menú del Título y la de "Unirse al Juego".
+- Corregidas algunas traducciones al idioma Espanol.
+- Agregada la P.D.: en este documento.
+- Arreglada la ubicación del Logo en ScreenTitleJoin (la de "Unirse al Juego").
+- Agregados diferentes colores para el tema (pero es un tema por color, mientras se intenta investigar cómo poner todos los colores en un solo tema. Esos colores incluyen el fondo, pancartas, cubiertas de las barras de vida, vidas de batería, encabezados, y más).
+- Cambiados los colores para los textos de LISTO y !!!COMENCEMOS!!! en la pantalla de Juego.
+- Arreglado el tamano del Medidor de Batería.
+- Cambiada la división del orden por LPM (Latidos Por Minuto) a 10 y la división del orden por Duración a 30 (en el segundo caso, es porque trabajamos con canciones largas, ja ja).
+- Se cambia la base para el radar de estriado.
+
+[Versión 2.0]
+- Opciones:
+  - Agrega una música de Fondo.
+  - Se restaura la Selección de Juego. Se ubica en las Opciones Avanzadas. Este tema funcionará correctamente sólo con los juegos Dance, Pump, Para, Techno y Kickbox (algunos modos).
+  - Eliminada la opción de Autocolocar Estilos (y asignarlo a falso en el archivo metrics.ini).
+  - Se agrega una opción de Pieles de Notas predeterminado para el modo Edición en las Opciones de Apariencia.
+  - Se agrega una opción para cambiar el color del tema en las Opciones de Tema. Ahora, todos los colores están en el mismo tema en lugar de temas separados por color (visto en la versión anterior). Hay 9 colores diferentes.
+  - Se agrega una opción de selección de Cubierta de las Barras de vida el las Opciones de Tema. Hay 4 modelos diferentes.
+- Pantalla del Título:
+  - Se cambia el desplazador en el menú (y agrega más elecciones).
+  - Agregado un efecto destellante en el logo.
+  - Se agregan logos dependiendo del tipo de juego (para Dance, Pump, Para y Kickbox. Los otros juego usarán el logo tradicional de SMET 1.x).
+  - El Modo Práctica está desactivado (si sabes habilitarlo via metrics.ini, hazlo. Si no, contáctanos para decirte cómo hacerlo).
+- Agregado un reloj en la mayoría de las pantallas (la fecha usa el formato japonés, Ano/Mes/Día y la hora usa el modo de 24 horas).
+- Pantalla de Créditos:
+  - Cambiado el fondo.
+  - Agregadas algunas personas para la parte de SMET.
+- Pantalla de Juego:
+  - Eliminado ese efecto oscuro en la barra de vida.
+  - La cubierta de las Barras de Vida cambia dependiendo de la opción escogida.
+  - Se cambian algunos objetos de la animación de Combo Completo.
+  - Se agregan efectos de destello para los juicios Maravilloso y Genial.
+- Pantalla de Companía:
+  - Se cambia el fondo para los logos.
+  - Se cambia el logo de StepMania (al usado en StepMania 3.9).
+  - Se agrega una pantalla promoviendo el sitio web de StepMania Edición Tacvicom.
+- Nuevas fuentes para el encabezado y el texto normal.
+- Agregada información en las pancartas de la primera ventanilla de StepMania (aquella que muestra la carga de canciones  cursos mientras se inicia).
+- Panralla de Cómo Jugar:
+  - Reorganizados los objetos.
+  - Agregados otros objetos cuando el tipo de juego no es "dance".
+  - Agregados algunos pasos en el archivo .ssc para los tipos de juego pump, para y kickbox.
+- Pantalla de Demostración: 
+  - Ahora la pancarta de la canción se muestra por la esquina inferior derecha.
+- Pantalla de Selección de Estilo: 
+  - Agregadas nuevas imágenes cuando el tipo de juego no es "dance" (sólo para aquellos juegos mencionados anteriormente).
+- Menú de Depuración: 
+  - Arreglado el tamano del texto (ahora todas las líneas son perfectamente visibles).
+  - Arreglada la traducción de algunas palabras para el idioma Espanol.
+- Pantalla de Información de Escena: Agregada la pancarta de la canción con su borde y animación.
+- Pantallas de Evaluación: Agregado un fondo musical.
+- Pantalla de Opciones de Jugador: Agregada una opción para Seleccionar Personaje.
+- Pantallas de Selección de Modo de Juego y Selección de Dificultad:
+  - Arreglado un problema que no permitía ver los títulos de los íconos traducidos a otros idiomas distintos al Inglés. Por favor recuerda que este tema sólo muestra perfectamente las palabras en Inglés y Espanol.
+- Pantalla de Cómo Instalar Canciones:
+  - Usa un encabezado como las otras pantallas.
+  - Usa un desplazador diferente (el mismo de la Selección de Estilo).
+  - Se cambian los sitios web direccionados a aquellos del sitio web de StepMania Edición Tacvicom.
+- Pantalla de Introducción de Nombre:
+  - Usa un encabezado.
+  - Agrega una banderola inferior con texto de ayuda.
+  - Categoría de canciones completadas:
+    - Tiene letras más pequenas.
+	- Tiene una ubicación más alta para evitar ser tapada por la mencionada banderola.
+- Pantalla de Menú de Edición:
+  - Arregladas algunas ubicaciones "X" para las filas (para hacer que la parte del idioma Espanol se vea bien).
+- Pantalla de Selección de Música: 
+  - Ajustada la ampliación del Mapa de Valores del Radar de Estriado para encajar con su base (y no lo rebase, como anteriormente pasaba).
+  
+[Versión 3.0]
+- Nueva dirección para el sitio web (y modificar algunas imágenes relacionadas a ello).
+- Ahora funciona perfectamente en StepMania 5.1 Beta 2 (debería funcionar bien en StepMania 5.0.12).
+- Incluye pieles de notas propios del Tema.
+- Pantalla de Opciones:
+  - Movidas algunas opciones a otras secciones (y eliminar la parte de Opciones de UI).
+  - Agregada una opción de Medidor Preferido en las Opciones Avanzadas.
+  - Arreglado el tamano de las explicaciones.
+- Opciones de Tema:
+  - Agregadas nuevas partículas para el Fondo Animado (puedes seleccionar Luces, Flechas o Copos de Nieve).
+  - Agregada una opción para mostrar las barras de ritmo mientras se juega una canción. Esto requerirá recargar las métricas si se cambia.
+  - Agregada una selección de Etiquetas de Juicio. La opción seleccionada afectará el juicio y las animaciones de Combo Completo en la pantalla de juego, y las etiquetas en las pantallas de Evaluación y Sumario.
+  - Agregada una opción para mostrar u ocultat el modo Solo para el juego dance.
+  - Agregada una opción para mostrar u ocultar la selección de dificultad después de escoger el modo de juego. Deshabilitarlo predeterminará la dificultad Estándar (media).
+  - Agregada una opción para escoger el tipo de logotipo para la Pantalla del Título.
+- Pantalla de Menú de Edición:
+  - Agregado un monitor de LPM y Tiempo para la canción resaltada (visto debajo del nombre de la canción y su pancarta).
+- Pantalla de Edición:
+  - Cambiado el fondo al fondo de la canción.
+  - Se reduce el tamano del texto de ayuda e información de pasos.
+  - Agregada la pancarta de la canción en curso con marco colorado.
+  - Agregado el reloj.
+  - Arreglado el texto "Presiona START para terminar" cuando se prueban los pasos.
+- Pantalla de Puntuaciones Altas:
+  - Agregada una manera para mostrar otras listas que no sean Individual para Dance y Pump, Individual 4 para Techno y Humano para Kickbox (mostrados al azar).
+  - Arreglada la cantidad de columnas de dificultad para algunos modos de juego (a aquellos usados comunmente en las recreativas).
+- Pantalla de Selección de Estilo:
+  - Agregados los estilos Insecto y Arácnido para el juego Kickbox (después de arreglar el código para ello).
+  - Se eliminan las imágenes de título para el juego Para (y ponerlos en blanco).
+  - Agregadas selecciones e imágenes para el juego KB7.
+  - Arregladas algunas animaciones de "primera vista".
+  - Nuevos modelos de plataformas para todos los personajes (y nuevos botones para las manos en el juego Para).
+  - Algunos cambios en las imágenes de información para cada estilo (incluyendo arreglar el error en la explicación del modo Rutina).
+- Pantalla de Demostración:
+  - Agregadas demostraciones del estilo Doble (sólo puede mostrarse con juegos compatibles).
+  - Ajustada la ubicación de algunos objetos.
+  - La dificultad de ese conjunto de pasos es ahora visible y fijo.
+- Pantalla de Cómo Jugar:
+  - Arreglada la versión del juego Kickbox.
+  - Agregada la versión del juego KB7.
+  - Agregada la versión del juego Techno.
+  - Agregado un acceso a él desde el menú principal.
+- Opciones de Jugador:
+  - Eliminada la selección múltiple para la fila de Apariencia.
+  - Agregada la opción Desvanecer a la fila de Apariencia.
+  - Eliminada la selección múltiple para la fila de las Mantenidas.
+  - Eliminada la selección múltiple para la fila de Desplazamiento.
+  - Eliminadas algunas opciones para la fila de Desplazamiento para dejar sólo dos (Tradicional y Reversa).
+  - Eliminada la selección múltiple para la fila de Girar.
+- Cambiada la pantalla de "Juego Ganado": Ahora muestra la pantalla de "Gracias por Jugar" después de la Entrada de Nombre en lugar de la pantalla de Créditos.
+- La Pantalla de Créditos ahora sólo puede ser accedida por la pantalla de Opciones (y volver a la misma cuando termine).
+- Pantalla de Juego:
+  - El texto de Juicio ahora mostrará un guión a la izquierda o la derecha de la palabra para decir tiempo temprano o tarde al tocar la nota.
+  - Cambiados algunos colores para el ProTiming.
+  - Cambiada la piel de notas para los modos Rutina.
+- Arreglado el texto de ayuda de algunas pantallas cuando el juego es Pump.
+- Pantalla de Evaluación:
+  - Arreglada la ausencia de la cantidad de flechas mantenidas cuando el juego es Pump.
+
+[Versión 3.1]
+- Opciones de Tema:
+  - Agregadas las opciones Respectivo y StepMania al reglón del tipo de logotipo para la Pantalla del Título (junto a sus opciones para ajustarlo).
+
+
+
+P.D.: Y sabrás:
+1- Puedes usar este tema en tu máquina recreativa de StepMania libremente (con la condición de cambiar el texto de la pantalla de Advertencia con el texto usado para SMET. Sabrás cómo hacerlo en el sitio web y en un documento llamado "Texto para la Pantalla de Advertencia" dentro de la carpeta Languages).
+2- Puedes usar este tema como base para crear más y nuevos temas.
+3- Si tienes alguna sugerencia, por favor envíala por las vías de contacto mostradas abajo.
+
+Información de Contacto:
+E-Mail: smtacviedit@gmail.com
+WhatsApp: +584128932069

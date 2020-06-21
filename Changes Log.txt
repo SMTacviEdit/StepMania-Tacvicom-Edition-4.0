@@ -1,0 +1,248 @@
+[Version 1.0]
+Initial Release. Based of the Default theme by Midiman:
+- Is required to have the Default theme in order to make it to work.
+- For use only on 16:9 monitor screens.
+- Don't work with profiles (this theme use the classic style).
+- Changed most of the yellow colour elements to blue.
+- Added a Warning Screen when launching StepMania.
+- Changed the "ScreenInit" (that one with the SSC logo and the theme info) to a "ScreenCompany".
+- Added (and changed some) music for different screens.
+- Select Style use the DDR 2014 scrolling style.
+- Select Difficulty replaces the Select Play Mode screen.
+- Added Full Combo animations (like in most recent DDR games).
+- Some names for the judgment are changed.
+- Customized some fonts.
+- Some options in the Options Service screen are removed (one of them, the language selecting).
+- The How to Play screen is extended.
+- Added an extra column in the High Scores screen.
+- The Game Over screen has changed sentences.
+- The difficulties have some different names.
+- Added the StepMania Tacvicom Edition section in the Credits screen.
+
+[Version 1.1]
+- Is now an independent theme (will not require the Default theme anymore to work).
+- Added some colours for the groups in the Music Wheel.
+- Fixed an error that don't allow from the ScreenCompany go automatically to ScreenLogo when Menu Timer is not activated in Options Service.
+
+[Version 1.2]
+- Select Music screen: 
+  - Some objects are arranged (including the Music Wheel)
+  - Removed that difficulty panel seen above the song banner.
+  - Added a groove radar (based in the DDR Ultramix model).
+  - The banner when asking for the song options is now blue.
+- High Scores screen: The scroller and upper icons are more centered.
+- Fixed the colours for Player 1 & Player 2 (to light blue and light red, respectively).
+
+[Version 1.3]
+- Language selection is restored in Options Service.
+- This theme now will work correctly only with English and Spanish languages.
+- Added a lot of images with text in Spanish language (including those seen in How to Play screen, the Judgments, the words for the groove radar in Select Music, the Win-Lose-Draw for the Rave mode, and more).
+- Select Style have some changed images.
+- Select Play Mode is restored, and you'll see the Select Difficulty when you choose Normal or Rave modes.
+- Added "own" banners for the Select Music, and a new "No Background" when playing a song without bg.
+- Updated the Warning Screen.
+
+[Version 1.4]
+- ScreenGameplay: Rearranged the "playing areas" to be more suitable for 16:9 screens.
+- Added Solo and Couple modes in Select Style screen.
+- Removed the Rave mode for Double and Solo styles (because is not compatible with those modes. The locked banner in the default theme says everything).
+- Common window icon is now blue.
+- New bars model for the Music Wheel.
+- Fixed an error which make the stage counter not shown correctly when you have Stepmania in another language than the English (and is an error the default theme of Stepmania 5.0.12 have).
+- Added banners for the sorting options for the Music Wheel.
+
+[Version 1.5]
+- Adjusted the text height in Caution Screen.
+- Finally fixed the "Don't work with profiles" part (adopting the style of the first DDR games ever).
+- Removed those black objects seen in Title Menu and "Title Join" screens.
+- Corrected some translations for the Spanish language.
+- Added the P.D.: into this document.
+- Fixed the Logo location in ScreenTitleJoin.
+- Added different colours for the theme (but is a theme per colour, while we're trying to investigate how to put all colours into a single theme. Those different colours include the background, banners, Lifebar covers, Battery Lives, headers, and more).
+- Changed the colours for READY and LET'S GO!!! in Gameplay screen.
+- Fixed the Battery Meter Life size.
+- Changed the Sort BPM Division in Music Wheel to 10 and Sort Length Division to 30 (in the second case, because we only work with long songs, ho ho).
+- Changed the Groove Radar base.
+
+[Version 2.0]
+- Options:
+  - Add a background music.
+  - Restored Game Select. Is located in Advanced Options. This theme will work correctly only with Dance, Pump, Para, Techno and Kickbox (some modes) games.
+  - Removed the AutoSetStyle option (and set it to false in metrics.ini file).
+  - Added a Default Editor Noteskin option in the Appearance Options.
+  - Added a colour change option in Theme Options. Now, all colours are in the same theme instead themes separated by colour (seen in the earlier version). There are 9 different colours.
+  - Added a Lifebar Cover select option in Theme Options. There are 4 different models.
+- Title Screen:
+  - Changed the Scroller style in the Menu (and add more choices).
+  - Added a glowing effect in the logo.
+  - Added logos depending on the game type (for Dance, Pump, Para and Kickbox. Other games will use the traditional logo from SMTE 1.x).
+  - Practice Mode is disabled (if you know how to enable it via metrics.ini, do it. If not, contact us to tell you how to do it).
+- Added a clock in most of the screens (the date uses the Japanese format, Year/Month/Day and time uses the 24 hour mode).
+- Credits Screen:
+  - Changed the background.
+  - Added some people to the SMTE part.
+- Gameplay Screen:
+  - Removed the "darken" effect from the LifeBar.
+  - The model of the LifeBars cover changes depending of the choosen mode.
+  - Changed some objects of the Full Combo animation.
+  - Added glowing effects for the Wonderful and Great judgments.
+- Company Screen:
+  - Changed the background for the logos.
+  - Changed the StepMania logo (to that used in StepMania 3.9).
+  - Added a screen promoting StepMania Tacvicom Edition website.
+- New fonts for the headers and normal text.
+- Added info in the "splash" banners (those shown when loading songs and courses while Stepmania start).
+- Screen How to Play:
+  - Rearranged the objects.
+  - Added other objects when the gametype is not "dance".
+  - Added some steps in the .ssc file for pump, para and kickbox game types.
+- Demonstration Screen: 
+  - Added a banner display.
+- Select Style screen: 
+  - Added new pictures when game type is not "dance" (only for those games mentioned above).
+- Debug Menu: 
+  - Fixed the text size (now all lines are perfectly visible).
+  - Fixed some word translations for the Spanish language.
+- Stage Information Screen: Added a banner display with animation.
+- Evaluation screens: Added background music.
+- Player Options Screen: Added a Character Selection option.
+- Select Game Mode and Select Difficulty Screens:
+  - Fixed a problem which don't allow to see the title of icons translated into another language than the English. Please remember this theme only show perfectly the words in English and Spanish languages.
+- How to Install Songs screen:
+  - Use a header like some other screens.
+  - Use a different scroller style (the same from Select Style).
+  - Changed the web pages addressed to those from the StepMania Tacvicom Edition website.
+- Name Entry screen:
+  - Use a header.
+  - Added a footer with help text.
+  - Category of completed songs:
+    - Have smaller characters.
+	- Have an upper location to avoid being "hidden" behind the footer.
+- Edit Menu Screen:
+  - Fixed some "X" locations for the rows (to make the Spanish language part look well).
+- Select Music Screen: 
+  - Adjusted the Groove Radar Value Map zoom to fit the GrooveRadar Base.
+  
+Version 3.0:
+After investigating a little bit about how to add these features, they are here:
+- New address for the website (and modify some pictures related to it).
+- Now work perfectly in StepMania 5.1 Beta 2 (in StepMania 5.0.12 should work almost all of the features).
+- Includes own noteskins of this Theme.
+- Options Screen:
+  - Moved some options to other sections (and removing UI Options part).
+  - Added a Preferred Meter option in Advanced Options.
+  - Fixed the size of the explanations.
+- Theme Options:
+  - Added new particles styles for the Fancy Background (you can select Lights, Arrows or Snowflakes) in Theme Options.
+  - Added an option to show the beat bars while playing any song in Theme Options. This will require to reaload metrics to take effect.
+  - Added a Judgment Label selection in Theme Options. The selected option will affect the judgment and Full Combo labels in Gameplay Screen, and the labels in Evaluation Screen.
+  - Added an option to show or hide the Solo mode for dance game.
+  - Added an option to show or hide the difficulty selection after choosing the game mode. Disabling it will use Standard (medium) difficulty as default.
+  - Added an option to choose the logo type for the Title Screen.
+- Edit Menu Screen:
+  - Added BPM and Time display for the current highlighted song (seen under song's name and banner).
+- Edit Screen:
+  - Changed the background to Song's background.
+  - Reduced the help and steps info text size.
+  - Added a banner display with coloured frame.
+  - Added the clock.
+  - Fixed the "Press START to end" text when testing the steps.
+- HighScores Screen:
+  - Added a way to show other high scores than Single for Dance and Pump, Single 4 for Techno and Human for Kickbox (shown at random).
+  - Fixed the quantity of difficulty columns for some game modes (to those commonly used at arcades).
+- Select Style Screen:
+  - Added the Insect and Arachnid styles for Kickbox game (after fixing some code for it).
+  - Removed the Title pictures for Para game (and set them to blank).
+  - Added selections and pictures for KB7 game.
+  - Fixed some "first sight" animations.
+  - New Platforms models for all the characters (and new buttons for the hands in Para game).
+  - Some changes in the info image for each style (including fix the error in the Routine mode explanation).
+- Demonstration Screen:
+  - Added Double style demonstrations (only compatible games can show it).
+  - Adjusted some objects locations.
+  - The difficulty of the current chart is now visible and fixed.
+- How to Play Screen:
+  - Fixed the Kickbox game version.
+  - Fixed the Para game version.
+  - Added KB7 game version.
+  - Added Techno game version.
+  - Added an access to it in the Main Menu screen.
+- Player Options:
+  - Removed multiple selection for Appearance row.
+  - Added Random Vanish into the Appearance row.
+  - Removed multiple selection for Holds row.
+  - Removed multiple selection for Scroll row.
+  - Removed some options for Scroll row to leave only two (Traditional and Reverse).
+  - Removed multiple selection for Turn row.
+- Changed the "game winning" screens: Now show the "Thank You for Playing" after the Name Entry instead the Credits Screen.
+- Credits Screen can now be accessed only via Options Screen (and go back to Options Screen after finishing).
+- Gameplay Screen:
+  - The Judgment text will now show a "-" in the left or the right of the word to mean early or late timing. The Early and Late labels are removed.
+  - Changed some colors for the ProTiming.
+  - Changed the noteskin for Routine modes.
+- Fixed the help text of some screens for Pump game.
+- Evaluation Screen:
+  - Fixed the mising Frozen arrows quantity when the selected game is Pump.
+
+[Version 4.0]
+- Increased the Theme internal resolution to 1280x720
+- New background, replacing the earlier one made by Midiman.
+- New interface, a face cleaning.
+- Changed the difficulty names.
+- Header from some menues:
+  - Title is moved to the center.
+  - Clock is moved to the left side.
+  - Replaced the diagonal lines from that animation to use arrows, and now have two animations like this (starting from the center of the screen).
+- Warning Screen:
+  - The timer length is extended.
+- Logo Screen:
+  - Added a footer.
+  - Added the Tacvicom info in that footer.
+- How to Play Screen:
+  - Added a footer.
+  - Added an important info in the footer when the selected game is Kickbox.
+  - Moved the player part more to the right.
+  - Moved the Info more to the left.
+  - Replaced the font of the "How to Play" text.
+  - Clock is bigger.
+- Demonstration Screen:
+  - The Banner display is moved to the left side.
+  - Added a Jacket display in the right side.
+- HighScores Screen:
+  - Fixed for the new Theme internal resolution.
+- Title Menu Screen:
+  - Songs and groups quantity with its ribbon is back.
+  - Gametype text with its ribbon is back (when you configure the Title Screen Logo option from Theme Options to StepMania).
+  - Added the Theme version info below the clock.
+  - The StepMania version info is back (located in the lower right corner).
+  - Added the Tacvicom Enterprises information.
+- Caution Screen:
+  - Changed the location of the CAUTION! word and its underline.
+  - Added a line in the text.
+  - The timer length is extended (but you can even go to the next screen pressing the START button).
+- Play Mode Select Screen:
+  - New scroller model (the same from Select Style and How to Install Songs screens).
+- Difficulty selector after the Play Mode Select is removed in this version. This mean from the Play Mode Select, go directly to Select Music using Medium difficulty as default.
+- Select Music Screen:
+  - Some objects have new locations.
+  - Difficulty list now have white upper and lower lines (before, were black).
+  - New border for the banner.
+  - New frame for the steps info.
+  - BPM, song time and group display have new locations (and added a frame for them).
+  - Added a jacket display (with its border).
+- Recovered some options removed accidentally in the lastest version, like the Lyrics, Transliteration for them, Menu Timer and more.
+- Theme Options:
+  - Added the options Respective and StepMania to the Title Screen Logo row (and their options to adjust it).
+  - Added an option to change the scroller type for the Main Menu screen.
+  - Removed the Dark colour option. Changed to Aquamarine.
+  
+
+
+P.D.: And you'll know:
+1- You can use this theme in your StepMania Arcade Machine freely (with the condition of changing the Warning Screen text with the SMTE used text. You'll see how to do it in the website and into a document called "Text for Warning Screen" located into the Languages folder).
+2- You can use this theme as base to create more and new themes.
+3- If you have any suggestion, please send it via contact info.
+
+Contact Info:
+E-Mail: smtacviedit@gmail.com
+WhatsApp: +584128932069
