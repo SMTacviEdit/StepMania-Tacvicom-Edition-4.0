@@ -1,0 +1,27 @@
+Here are the instructions to change the text in the Warning screen of this theme:
+1- Get into the Tacvicom Edition 3 theme folder.
+2- Get into Languages folder.
+3- Open en.ini using a notepad app.
+4- Go to the [ScreenWarning] part.
+5- Look for the WarningText line, and modify the text with any of those shown below:
+
+When using at Home:
+This Theme is free, and only for use at Home.\n\nThe copyrighted music/characters/artwork  in this game are separately owned by their autors.\n\nIf you want to use this Theme for commercial purposes, please read the "Text for Warning Screen" document.\n\n2019. Tacvicom Enterprises. All rights reserved.
+
+If used in North America:
+This game only for use in North America.\n\nThe copyrighted music/characters/artwork  in this game are separately owned by their autors.\n\nThe use of this game outside the mentioned territory is teminately prohibited.\n\n2019. Tacvicom Enterprises. All rights reserved.
+
+If used in Latin America:
+This game only for use in Latin America.\n\nThe copyrighted music/characters/artwork  in this game are separately owned by their autors.\n\nThe use of this game outside the mentioned territory is teminately prohibited.\n\n2019. Tacvicom Enterprises. All rights reserved.
+
+If used in Europe:
+This game only for use in Europe.\n\nThe copyrighted music/characters/artwork  in this game are separately owned by their autors.\n\nThe use of this game outside the mentioned territory is teminately prohibited.\n\n2019. Tacvicom Enterprises. All rights reserved.
+
+If used in Africa:
+This game only for use in Africa.\n\nThe copyrighted music/characters/artwork  in this game are separately owned by their autors.\n\nThe use of this game outside the mentioned territory is teminately prohibited.\n\n2019. Tacvicom Enterprises. All rights reserved.
+
+If used in Asia:
+This game only for use in Asia.\n\nThe copyrighted music/characters/artwork  in this game are separately owned by their autors.\n\nThe use of this game outside the mentioned territory is teminately prohibited.\n\n2019. Tacvicom Enterprises. All rights reserved.
+
+If you want it customized by country:
+This game only for use in [Put the name of your country here].\n\nThe copyrighted music/characters/artwork  in this game are separately owned by their autors.\n\nThe use of this game outside the mentioned territory is teminately prohibited.\n\n2019. Tacvicom Enterprises. All rights reserved.

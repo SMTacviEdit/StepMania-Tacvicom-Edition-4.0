@@ -1,0 +1,27 @@
+﻿He aquí las instrucciones para cambiar el texto en la pantalla de Arvertencia de este tema:
+1- Entra en la carpeta Tacvicom Edition v3.0.
+2- Entra en la carpeta Languages.
+3- Abre es.ini usando una aplicación de Bloc de Notas.
+4- Ve a la parte [ScreenWarning].
+5- Busca la línea WarningText, y modifica el texto con cualquiera de los que se muestran abajo:
+
+Si se usa en Casa:
+Este Tema es gratuito, y sólo para usar en casa.\n\n La música/personajes/arte en este juego están separadamente adueñados por sus autores.\n\nSi quieres usar este Tema para propósitos comerciales, por favor lea el doumento "Texto para la Pantalla de Advertencia".\n\n2019. Empresas Tacvicom. Todos los derechos reservados.
+
+Si se usa en Norteamérica:
+Este juego sólo puede usarse en Norteamérica.\n\n La música/personajes/arte en este juego están separadamente adueñados por sus autores.\n\nEl uso de este juego fuera del mencionado territorio está terminantemente prohibido.\n\n2019. Empresas Tacvicom. Todos los derechos reservados.
+
+Si se usa en Latinoamérica:
+Este juego sólo puede usarse en Latinoamérica.\n\n La música/personajes/arte en este juego están separadamente adueñados por sus autores.\n\nEl uso de este juego fuera del mencionado territorio está terminantemente prohibido.\n\n2019. Empresas Tacvicom. Todos los derechos reservados.
+
+Si se usa en Europa:
+Este juego sólo puede usarse en Europa.\n\n La música/personajes/arte en este juego están separadamente adueñados por sus autores.\n\nEl uso de este juego fuera del mencionado territorio está terminantemente prohibido.\n\n2019. Empresas Tacvicom. Todos los derechos reservados.
+
+Si se usa en África:
+Este juego sólo puede usarse en África.\n\n La música/personajes/arte en este juego están separadamente adueñados por sus autores.\n\nEl uso de este juego fuera del mencionado territorio está terminantemente prohibido.\n\n2019. Empresas Tacvicom. Todos los derechos reservados.
+
+Si se usa en Asia:
+Este juego sólo puede usarse en Asia.\n\n La música/personajes/arte en este juego están separadamente adueñados por sus autores.\n\nEl uso de este juego fuera del mencionado territorio está terminantemente prohibido.\n\n2019. Empresas Tacvicom. Todos los derechos reservados.
+
+Si se quiere personalizar por país:
+Este juego sólo puede usarse en [Coloca aquí el nombre de tu país].\n\n La música/personajes/arte en este juego están separadamente adueñados por sus autores.\n\nEl uso de este juego fuera del mencionado territorio está terminantemente prohibido.\n\n2019. Empresas Tacvicom. Todos los derechos reservados.
